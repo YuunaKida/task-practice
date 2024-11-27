@@ -1,0 +1,14 @@
+ja:
+  activerecord:
+    models:
+      task: タスク
+    attributes:
+      task:
+        title: タイトル
+        explanation: 説明
+        due_date: 期限日
+    errors:
+      messages:
+        blank: "を入力してください"
+        too_long: "は%{count}文字以内で入力してください"
+        greater_than_or_equal_to: "は現在の日付以降でなければなりません"
